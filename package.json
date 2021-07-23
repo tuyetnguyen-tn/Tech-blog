@@ -1,0 +1,33 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Application that allow user to post about their tech",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuyetnguyen-tn/Tech-blog.git"
+  },
+  "keywords": [
+    "mwc"
+  ],
+  "author": "Tuyet Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuyetnguyen-tn/Tech-blog/issues"
+  },
+  "homepage": "https://github.com/tuyetnguyen-tn/Tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
+}
